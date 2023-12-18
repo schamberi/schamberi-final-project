@@ -17,6 +17,8 @@ pip install -r requirements.txt
 Apply Migrations:
 python manage.py migrate
 
+To runtheserver: py manage.py runserver
+
 Data Upload
 To upload data to the API, utilize the provided endpoint:
 Endpoint: /cashflow/upload/
@@ -53,3 +55,6 @@ Cashflow List
 Endpoint: /cashflow/cashflow-list/
 Method: GET
 Retrieve a list of cashflows from the API.
+
+Container Image Creation and Activation on the terminal with the virtual enviornment activated
+docker composer up --build, make sure to have docker installed on your machine
