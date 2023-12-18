@@ -3,7 +3,7 @@ This README provides step-by-step instructions for setting up and using the API 
 
 Installation
 Clone the Repository:
-git clone schamberi/final-project
+git clone schamberi/schamberi-final-project
 cd djangoassignment
 
 
